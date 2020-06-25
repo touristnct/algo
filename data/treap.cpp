@@ -215,6 +215,6 @@ namespace treap {
   void reverse(node* v) {
     v->unsafe_reverse();
   }
-}
+}    // namespace treap
  
 using namespace treap;
